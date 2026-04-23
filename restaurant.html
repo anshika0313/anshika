@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golden Spoon</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="restaurant.css">
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <h2>Golden Spoon</h2>
+  <ul>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>A Taste of Elegance</h1>
+  <p>Experience fine dining like never before</p>
+  <div class="buttons">
+    <a href="#menu"><button>View Menu</button></a>
+    <a href="#reservation"><button>Book Table</button></a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="glass">
+  <h2>About Us</h2>
+  <p>At Golden Spoon, we blend tradition with modern culinary art to create unforgettable experiences.</p>
+</section>
+
+<!-- Menu -->
+<section id="menu">
+  <h2>Our Menu</h2>
+
+  <div class="menu-grid">
+
+    <div class="card glass">
+      <h3>Starters</h3>
+      <p>Paneer Tikka - ₹250</p>
+      <p>Soup - ₹180</p>
+    </div>
+
+    <div class="card glass">
+      <h3>Main Course</h3>
+      <p>Butter Chicken - ₹450</p>
+      <p>Dal Makhani - ₹300</p>
+    </div>
+
+    <div class="card glass">
+      <h3>Desserts</h3>
+      <p>Gulab Jamun - ₹150</p>
+      <p>Brownie - ₹200</p>
+    </div>
+
+    <div class="card glass">
+      <h3>Drinks</h3>
+      <p>Mojito - ₹180</p>
+      <p>Cold Coffee - ₹160</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Featured -->
+<section class="featured">
+  <h2>Featured Dishes</h2>
+  <div class="menu-grid">
+    <div class="card glass">Chef Special Pasta</div>
+    <div class="card glass">Royal Thali</div>
+    <div class="card glass">Chocolate Lava Cake</div>
+  </div>
+</section>
+
+<!-- Reservation -->
+<section id="reservation" class="glass">
+  <h2>Book a Table</h2>
+
+  <form id="bookingForm">
+    <input type="text" placeholder="Name" required>
+    <input type="date" required>
+    <input type="time" required>
+    <input type="number" placeholder="Guests" required>
+    <button type="submit">Reserve</button>
+  </form>
+</section>
+
+<!-- Testimonials -->
+<section class="glass">
+  <h2>Masala tales</h2>
+  <div class="slider">
+    <p>"Amazing food and ambiance!" ⭐⭐⭐⭐⭐</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="glass">
+  <h2>Contact</h2>
+  <p>Email: 13anshika06@gmail.com</p>
+  <p>Phone: +91 9876543210</p>
+  <iframe src="https://maps.google.com/maps?q=delhi&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</section>
+
+<script src="restaurant.js"></script>
+</body>
+</html>
